@@ -5,7 +5,7 @@ if number > 0 print “Number > 0”
 if number = 0 throw your own exception
  */
 
-public class lesson8 {
+public class lesson81 {
     public static void main(String[] args) throws Exception {
         int number = 0;
         if (number < 0) {
