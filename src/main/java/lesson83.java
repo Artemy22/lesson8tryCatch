@@ -13,7 +13,7 @@ public class lesson83 {
             int[] c = {1};
             System.out.println(c[1]);
         } catch (Exception e) {
-            System.out.println(e);
+            System.out.println(e.getCause());
         }
     }
 }
