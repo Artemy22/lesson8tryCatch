@@ -1,16 +1,14 @@
 /*
-"4. Fix the program to make it work:
+"5. Throw a NullPointerException from the method iCanThrowException();
+Handle it in the main method.
  */
 
 public class lesson85 {
     public static void main(String[] args) {
-        try {
-            int a = 0;
-            int b = 4 / a;
-        } catch (ArithmeticException e) {
-            e.printStackTrace();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        iCanThrowException();
+    }
+
+    public static void iCanThrowException() {
+        throw new NullPointerException();
     }
 }
