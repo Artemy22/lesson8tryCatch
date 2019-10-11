@@ -2,7 +2,7 @@
 "4. Fix the program to make it work:
  */
 
-public class lesson84 {
+public class lesson85 {
     public static void main(String[] args) {
         try {
             int a = 0;
