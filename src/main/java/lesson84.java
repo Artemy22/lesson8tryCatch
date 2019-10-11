@@ -1,19 +1,17 @@
 /*
-"3. Finish the program to handle all the possible exceptions:
-Print the cause of the exception to the console."
+"4. Fix the program to make it work:
+
  */
 
-public class lesson83 {
+public class lesson84 {
     public static void main(String[] args) {
         try {
-            int a = args.length;
-            System.out.println(a);
-
-            int b = 10 / a;
-            int[] c = {1};
-            System.out.println(c[0]);
+            int a = 0;
+            int b = 4 / a;
+        } catch (ArithmeticException e) {
+            e.printStackTrace();
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
     }
 }
